@@ -128,10 +128,10 @@ def read_and_create_txt_files(conn, database_name, object_type, query):
     return 0
 
 def main():
-    server = 'ANUJGUPTA'
-    username = 'sa'
-    password = 'ms'
-    databases = ['test1', 'testing','bsedb']  # Multiple databases pass as array
+    server = 'Your_Server_Name'
+    username = 'Server_UserId'
+    password = 'Server_Password'
+    databases = ['DB1', 'DB2','DB3','DB4']  # Multiple databases pass as array
 
     object_queries = {
         'StoredProcedures': "SELECT name FROM sys.procedures",
